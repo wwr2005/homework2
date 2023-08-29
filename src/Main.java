@@ -12,5 +12,11 @@ public class Main {
         perWeightpa = perWeightpa + 4;
 
         System.out.println("Собака " + dogWeight + " кошка " + catWeight + " бумага " + perWeightpa);
+
+        dogWeight = dogWeight - 3.5;
+        catWeight = catWeight - 1.6;
+        perWeightpa = perWeightpa - 7639;
+
+        System.out.println("Собака " + dogWeight + " кошка " + catWeight + " бумага " + perWeightpa);
     }
     }
