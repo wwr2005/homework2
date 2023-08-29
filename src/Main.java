@@ -51,5 +51,24 @@ public class Main {
         var result = 78.2 + 82.7;
         System.out.println("общая масса боксеров " + result +"кг");
 
+        var liftingCapacity = 160.9;
+
+        result = 82.7 - 78.2;
+
+        System.out.println("разница в массе боксеров " + result +"кг");
+
+        var leftWeight = boxerTwo - boxerOne;
+        System.out.println("разница в массе между боксеров " + leftWeight +" кг");
+
+        var overload = (boxerTwo - boxerOne) % liftingCapacity;
+        System.out.println("перегрузка в массе боксеров на " + overload +" кг");
+
+        var time = 640;
+        var human = time / 8;
+
+        System.out.println("работает " + human +" человек");
+        human = human + 94;
+        leftWeight = time / human;
+        System.out.println("Если в компании работает " + human + " человека, то всего " + leftWeight + " часа работы может быть поделено между сотрудниками");
     }
     }
