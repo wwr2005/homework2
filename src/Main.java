@@ -61,7 +61,7 @@ public class Main {
         System.out.println("разница в массе между боксеров " + leftWeight +" кг");
 
         var overload = (boxerTwo - boxerOne) % liftingCapacity;
-        System.out.println("перегрузка в массе боксеров на " + overload +" кг");
+        System.out.println("перегруз в массе боксеров на " + overload +" кг");
 
         var time = 640;
         var human = time / 8;
